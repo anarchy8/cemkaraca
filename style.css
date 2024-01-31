@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bree Serif', serif;
+}
+body{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+ height: 700px;
+ gap: 12px;
+ background: url(images/background.jpg);
+}
+.main-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ width: 80%;
+ height: 400px;
+ background-color: antiquewhite;
+ margin-top: 20px;
+ gap: 40px;
+}
+#baslik{
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+.söz{
+font-size: 25px;
+}
+#pEtiket{
+  font-size: 25px;
+}
+
+#buton{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: beige;
+}
+#buton:hover{
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+.hide{
+  display: none;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px; 
+}
+.cem-img{
+  width: 280px;
+}
